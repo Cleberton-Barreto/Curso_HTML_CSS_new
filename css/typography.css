@@ -1,0 +1,199 @@
+.tittle-style{
+    font-family: lora, sans-serif;
+    font-weight: 500;
+    color: #000000;
+}
+
+.tittle-style.h1{
+    font-family: lora, sans-serif;
+    font-size: 54px;
+    font-weight: 500;
+}
+
+.tittle-style.h2{
+    font-family: lora, sans-serif;
+    font-size: 42px;
+    font-weight: 500;
+}
+
+.tittle-style.h3{
+    font-family: lora, sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.tittle-style.h4{
+    font-family: lora, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.tittle-style.h5{
+    font-family: lato, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.tittle-style.h6{
+    font-family: lora, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tittle-style.center{
+    text-align: center;
+}
+
+.tittle-style.white{
+    color: #ffffff;
+}
+
+.m-top1{
+    margin-top: 1rem;
+}
+
+.m-top2{
+    margin-top: 2rem;
+}
+
+.m-top3{
+    margin-top: 3rem;
+}
+
+.m-top4{
+    margin-top: 4rem;
+}
+
+.m-bottom1{
+    margin-bottom: 1rem;
+}
+
+.m-bottom2{
+    margin-bottom: 2rem;
+}
+
+.m-bottom3{
+    margin-bottom: 3rem;
+}
+
+.m-bottom4{
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 1000px) {
+    .tittle-style {
+      font-family: lora, sans-serif;
+      font-weight: 500;
+      color: #000000;
+    }
+  
+    .tittle-style.h1 {
+      font-family: lora, sans-serif;
+      font-size: 38px;
+      font-weight: 500;
+    }
+  
+    .tittle-style.h2 {
+      font-family: lora, sans-serif;
+      font-size: 34px;
+      font-weight: 500;
+    }
+  
+    .tittle-style.h3 {
+      font-family: lora, sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+    }
+  
+    .tittle-style.h4 {
+      font-family: lora, sans-serif;
+      font-size: 26px;
+      font-weight: 500;
+    }
+  
+    .tittle-style.h5 {
+      font-family: lato, sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+    }
+  
+    .tittle-style.h6 {
+      font-family: lora, sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  
+    .tittle-style.white {
+      color: #ffffff;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .tittle-style {
+      font-family: lora, sans-serif;
+      font-weight: 500;
+      color: #000000;
+    }
+  
+    .tittle-style.h1 {
+      font-family: lora, sans-serif;
+      font-size: 33px;
+      font-weight: 500;
+    }
+  
+    .tittle-style.h2 {
+      font-family: lora, sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+    }
+  
+    .tittle-style.h3 {
+      font-family: lora, sans-serif;
+      font-size: 26px;
+      font-weight: 500;
+    }
+  
+    .tittle-style.h4 {
+      font-family: lora, sans-serif;
+      font-size: 22px;
+      font-weight: 500;
+    }
+  
+    .tittle-style.h5 {
+      font-family: lato, sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+    }
+  
+    .tittle-style.h6 {
+      font-family: lora, sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+    }
+      
+    .tittle-style.white {
+      color: #ffffff;
+    }
+  }
+  
+  @media (max-width: 850px) {
+    #main-banner .flex-section {
+      flex-direction: column;
+    }
+    #main-banner .flex-section .right {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  @media(max-width: 650px){
+    #main2-banner .top{
+        flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    #main-banner .flex-section .left .btn{
+      width: 100%;
+    }
+  }

@@ -1,0 +1,24 @@
+#main-banner .flex-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+#main-banner .flex-section .left,
+#main-banner .flex-section .right {
+  width: 100%;
+}
+
+#main2-banner .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main2-banner .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 98px;
+}
