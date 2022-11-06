@@ -57,3 +57,24 @@
   gap: 36px;
 }
 
+/* SECTION 5 */
+#Cta .container{
+  padding: 0;
+  background: url('/assets/Fundo_Cta.png') center center no-repeat;
+  background-size: cover;
+}
+
+#Cta .container .overlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  padding: 10px;
+  background: #24242440;
+}
+
+#Cta .container .overlay .form-box{
+  max-width: 400px;
+  width: 100%;
+}

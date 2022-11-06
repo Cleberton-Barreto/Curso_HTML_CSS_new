@@ -19,6 +19,9 @@
 .btn.white{
     color: #ffffff;
     border-color: #ffffff;
+    border: 2px solid white;
+    width: 159px;
+    height: 58px;
 }
 
 .btn.white:hover{
