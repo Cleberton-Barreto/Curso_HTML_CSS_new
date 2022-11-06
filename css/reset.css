@@ -4,14 +4,19 @@
   box-sizing: border-box;
 }
 
-html {
-  scroll-behavior: smooth;
+*:focus{
+  outline-width: 1px;
+  outline-style: solid;
+  outline-offset: 2px;
+  color: var(--white);
 }
 
-ul,
-ol,
-li {
-  list-style: none;
+a{
+  color: unset;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 img {
@@ -35,8 +40,9 @@ img {
   gap: 40px;
 }
 
-.menu ul {
+header .menu ul {
   display: flex;
+  list-style: none;
   gap: 36px;
 }
 
